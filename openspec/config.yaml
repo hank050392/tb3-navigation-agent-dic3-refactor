@@ -1,0 +1,17 @@
+schema: spec-driven
+context: |
+  Write explanations in Traditional Chinese using Taiwan terminology.
+  Project: TurtleBot3 Burger indoor navigation and task decision agent.
+  Implemented: Python JSON validation and mock outcomes only.
+  Planned: LLM structured intent parsing, mission manager, ROS 2/Nav2 adapter.
+  Existing baseline: openspec/specs/offline-contract/spec.md.
+  Single robot, registered destinations, prebuilt 2D map, one active mission.
+  LLM cannot generate arbitrary coordinates, wheel speeds or safety settings.
+  Distinguish mock, simulation and physical results. Never invent measurements.
+  Preserve current offline behavior while planning the integrated system.
+rules:
+  specs:
+    - Each requirement must include SHALL or MUST and at least one WHEN/THEN scenario.
+    - Keep proposed runtime behavior in changes until implemented and verified.
+  tasks:
+    - Separate completed documentation from pending runtime implementation.

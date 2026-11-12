@@ -1,0 +1,1 @@
+run_id,method,environment,case_id,repeat,expected_handling,observed_handling,goal_sent,action_result,reported_result,success,collision,intervention,path_length_m,min_clearance_m,parse_ms,dispatch_ms,report_ms,model_id,prompt_hash,nav2_version,config_hash,evidence_path

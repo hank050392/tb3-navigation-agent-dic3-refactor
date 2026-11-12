@@ -1,0 +1,30 @@
+{
+  "demo_only": true,
+  "map_id": "offline_demo",
+  "frame_id": "map",
+  "landmarks": {
+    "desk": {
+      "label": "實驗桌",
+      "aliases": [
+        "桌子"
+      ],
+      "x": 1.0,
+      "y": 1.0,
+      "yaw": 0.0
+    },
+    "door_a": {
+      "label": "A 門口",
+      "aliases": [],
+      "x": 2.0,
+      "y": 0.0,
+      "yaw": 0.0
+    },
+    "door_b": {
+      "label": "B 門口",
+      "aliases": [],
+      "x": 0.0,
+      "y": 2.0,
+      "yaw": 0.0
+    }
+  }
+}
