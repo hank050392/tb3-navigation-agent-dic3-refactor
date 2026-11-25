@@ -30,3 +30,42 @@ python3 src/agent_demo.py --request examples/navigate.json --scenario ready
 ```
 
 指令從儲存庫根目錄執行。mock ARRIVED 不代表實機成功；測試結果不能當成語言準確率或導航成功率。完整研究引用見 [REFERENCES.md](docs/REFERENCES.md)。
+
+## DIC4 - IEEE Conference Paper
+
+### Manuscript
+
+An Evidence-Grounded Chinese-Language Task Agent and
+Specification-Driven Architecture for Indoor Navigation
+With TurtleBot3 Burger.
+
+- [Conference Paper (PDF)](paper/conference.pdf)
+- [LaTeX Source](paper/main.tex)
+- Format: IEEE Conference, A4, double-column, 6 pages
+- Platform: TurtleBot3 Burger, ROS 2 Humble, Nav2
+- Editor: Overleaf
+
+### OpenSpec
+
+- [DIC4 Proposal](openspec/changes/dic4-conference-paper/proposal.md)
+- [System Design](openspec/changes/dic4-conference-paper/design.md)
+- [Requirements](openspec/changes/dic4-conference-paper/specs/conference-paper/spec.md)
+- [Task Progress](openspec/changes/dic4-conference-paper/tasks.md)
+
+Validation: 3 passed, 0 failed.
+
+### MCP-Assisted Verification
+
+MCP Inspector and Filesystem MCP Server were used
+to retrieve and verify the manuscript source and
+OpenSpec requirements.
+
+- [MCP Verification Record](docs/dic4/MCP_VERIFICATION.md)
+
+### Research Status
+
+The offline contract prototype has passed nine unit tests
+as recorded in the manuscript.
+Full ROS 2/Nav2 integration and physical robot
+experiments remain future work.
+
